@@ -1,0 +1,111 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f1f3f6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+  }
+  
+  .container {
+    background-color: white;
+    width: 360px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h3 {
+    text-align: center;
+  }
+  
+  .balance-box {
+    background-color: #0c1360;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .balance-box h2 {
+    font-size: 32px;
+    margin: 10px 0;
+  }
+  
+  .summary {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .summary p span {
+    font-weight: bold;
+    display: block;
+  }
+  
+  .transactions h3, .add-transaction h3 {
+    margin-top: 0;
+  }
+  
+  #transactionList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .transaction-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+    font-size: 14px;
+    padding: 6px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .transaction-item.income span {
+    color: green;
+  }
+  
+  .transaction-item.expense span {
+    color: red;
+  }
+  
+  .add-transaction {
+    margin-top: 20px;
+  }
+  
+  .toggle-buttons {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .toggle-buttons button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .toggle-buttons .active {
+    background-color: #3e4ce3;
+    color: white;
+  }
+  
+  #transactionForm input,
+  #transactionForm button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+  
+  #transactionForm button {
+    background-color: #3e4ce3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
